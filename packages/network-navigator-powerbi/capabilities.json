@@ -47,6 +47,11 @@
 	"dataViewMappings": [{
 		"table": {
 			"rows": {
+                
+                "dataReductionAlgorithm": { 
+                    "window": { "count": 30000 } 
+                },
+                
 				"select": [{
 					"bind": {
 						"to": "SOURCE_NODE"
